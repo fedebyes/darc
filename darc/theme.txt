@@ -5,14 +5,14 @@
 # General
 
 title-text: "Boot menu"
-title-font: "Terminus Bold 18"
+title-font: "Noto Sans Bold 18"
 title-color: "#d3dae3"
-message-font: "Terminus Regular 14"
+message-font: "Noto Sans Regular 14"
 message-color: "#d3dae3"
 message-bg-color: "#13191c"
 desktop-image: "background.png"
 desktop-color: "#13191c"
-terminal-font: "Terminus Regular 12"
+terminal-font: "Noto Sans Regular 12"
 
 # OS list
 
@@ -21,8 +21,8 @@ terminal-font: "Terminus Regular 12"
 		width = 70%
 		top = 29%
 		height = 42%
-		item_font = "Terminus Regular 12"
-		selected_item_font = "Terminus Bold 12"
+		item_font = "Noto Sans Regular 13"
+		selected_item_font = "Noto Sans Bold 13"
 		item_color = "#898d99"
 		selected_item_color = "#fcfcfc"
 		item_height = 48
@@ -48,7 +48,7 @@ terminal-font: "Terminus Regular 12"
 		top = 73%
 		height = 23
 		show_text = false
-		font = "Terminus Regular 10"
+		font = "Noto Sans Regular 10"
 		text_color = "#898d99"
 		text = ""
 		bar_style = "progress_bar_*.png"
@@ -60,10 +60,10 @@ terminal-font: "Terminus Regular 12"
 + hbox {
 		top = 100%-35
 		left = 20%
-		+ label {text = "Enter: " font = "Terminus Bold 12" color = "#898d99" align = "left"}
-		+ label {text = "Boot Selection     " font = "Terminus Regular 12" color = "#3daee9" align = "left"}
-		+ label {text = "E: " font = "Terminus Bold 12" color = "#898d99" align = "left"}
-		+ label {text = "Edit Selection     " font = "Terminus Regular 12" color = "#3daee9" align = "left"}
-		+ label {text = "C: " font = "Terminus Bold 12" color = "#898d99" align = "left"}
-		+ label {text = "GRUB Commandline" font = "Terminus Regular 12" color = "#3daee9" align = "left"}
+		+ label {text = "Enter: " font = "Noto Sans Bold 12" color = "#898d99" align = "left"}
+		+ label {text = "Boot Selection     " font = "Noto Sans Regular 12" color = "#3daee9" align = "left"}
+		+ label {text = "E: " font = "Noto Sans Bold 12" color = "#898d99" align = "left"}
+		+ label {text = "Edit Selection     " font = "Noto Sans Regular 12" color = "#3daee9" align = "left"}
+		+ label {text = "C: " font = "Noto Sans Bold 12" color = "#898d99" align = "left"}
+		+ label {text = "GRUB Commandline" font = "Noto Sans Regular 12" color = "#3daee9" align = "left"}
 }
