@@ -4,6 +4,8 @@ Dark GRUB2 theme based on the Dharma theme by Malcer (Chakra Project), recolored
 
 ## Preview
 
+![GRUB theme preview](preview.png)
+
 Dark gradient background (`#13191c` → `#222831`) with Arc's accent blue (`#3daee9`), low brightness for night boots. Same clean Dharma layout and icons.
 
 ## Installation
