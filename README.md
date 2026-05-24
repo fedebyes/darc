@@ -1,4 +1,4 @@
-# grub2-theme-dharma-arc
+# darc — Dharma Arc Dark
 
 Dark GRUB2 theme based on the Dharma theme by Malcer (Chakra Project), recolored to match the Arc Dark Gray KDE color scheme.
 
@@ -11,15 +11,15 @@ Dark gradient background (`#13191c` → `#222831`) with Arc's accent blue (`#3da
 ### Manual
 
 ```bash
-sudo cp -r dharma-arc /boot/grub/themes/
-sudo sed -i 's|^GRUB_THEME=.*|GRUB_THEME="/boot/grub/themes/dharma-arc/theme.txt"|' /etc/default/grub
+sudo cp -r darc /boot/grub/themes/
+sudo sed -i 's|^GRUB_THEME=.*|GRUB_THEME="/boot/grub/themes/darc/theme.txt"|' /etc/default/grub
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 ### AUR (coming soon)
 
 ```bash
-yay -S grub2-theme-dharma-arc
+yay -S grub2-theme-darc
 ```
 
 ## Colors
