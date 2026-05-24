@@ -24,7 +24,7 @@ terminal-font: "Noto Sans Regular 12"
 		item_font = "Noto Sans Regular 13"
 		selected_item_font = "Noto Sans Bold 13"
 		item_color = "#898d99"
-		selected_item_color = "#fcfcfc"
+		selected_item_color = "#5294e2"
 		item_height = 48
 		item_padding = 15
 		item_spacing = 5
